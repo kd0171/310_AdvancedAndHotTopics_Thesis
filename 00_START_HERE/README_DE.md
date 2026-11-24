@@ -1,3 +1,9 @@
+# Kurzeinführung v006 (25.11.2026)
+
+Die neuesten vollständigen Kapitel 2 und 3 (Deutsch/Japanisch) befinden sich unter `../01_paper/versions/v006_20261125/`. Das kumulative Diskussionsprotokoll und die Belegprüfung liegen unter `../08_revision_v006/`. Die Forschungsfrage ist ein vorläufiger Arbeitsvorschlag. KI-generierter Text darf gemäß offizieller Vorlage nicht in die einzureichende Arbeit übernommen werden.
+
+---
+
 # Thema 4 | Zweisprachiges Forschungs- und Schreibsystem v001
 
 Diese Arbeitsmappe verwaltet Kapitelentwürfe/Gliederungen (Japanisch und Deutsch), Original-PDFs, kurze Belegstellen aus dem Volltext, offene Fragen und die Übergabe zwischen Chat-Sitzungen.

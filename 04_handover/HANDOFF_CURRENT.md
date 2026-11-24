@@ -1,3 +1,15 @@
+# 最新引継ぎ — v006（2026-11-25）
+
+- **最新版**：`01_paper/versions/v006_20261125/{ja,de}/{02_Introduction,03_Theoretical_Background}.md`。章2・3を学術論文として再構成した全文草稿。
+- **主要議論**：`08_revision_v006/Theme4_Creative_Self_Cumulative_Discussion_v005_20261125_JA.md`。v001–v004の全文保存＋今回の追記。
+- **暫定RQ**：評価者がAIか人間かの予期による、志望動機文での創造的自己呈示の違い。最終決定していない。既存グループ案は根拠にしない。
+- **根拠・未決**：`08_revision_v006/CHAPTER_ARGUMENT_AND_EVIDENCE_MAP.md`、`REFERENCE_STATUS.md`、`DECISIONS_AND_OPEN_QUESTIONS.md`。
+- **科学的境界**：GoergenのAI評価予期、JussupowのGenAI開示予期、KarwowskiのCreative Self-Beliefsを別の研究対象として扱う。自己防衛や努力減少を必然としない。
+- 既存v001–v005、L01–L16、および原著PDFは無変更。第1章と第4–7章の内容は旧草稿を継承しただけで、今回のRQとの整合は未検証。
+- **規則**：AI生成文章の提出論文への直接転用は許可されていない。第2章4ページ／第3章3ページ。組版でのページ超過判定は未実施。
+
+---
+
 # 最新引継ぎ — v005 (2026-11-25)
 
 **このブロックが最優先。下部のv004以前のhandoffは歴史資料。**
