@@ -1,0 +1,15 @@
+digraph G {
+ graph [rankdir=TB, bgcolor="white", pad=.15, nodesep=.25, ranksep=.35, fontname="Noto Sans CJK JP", fontsize=11];
+ node [shape=box, style="rounded,filled", color="#667789", fillcolor="#F2F5F8", fontname="Noto Sans CJK JP", fontsize=11, margin=".15,.09"];
+ edge [fontname="Noto Sans CJK JP", fontsize=9, color="#52677D", arrowsize=.65];
+ a [label="Self\n自己知識・対人関係・選択と統制\nBaumeister (2010)"];
+ b [label="Creativity / agency\n成果物・意図的な創作過程\nAmabile (1982, 1996); Harvey & Berry (2023)"];
+ c [label="Creative Self\n創造的主体性による成果物産出能力に根ざす自己の一部\nJussupow et al. (2026), p. 5", fillcolor="#E1EAF2", penwidth=1.5];
+ d [label="印象管理・社会的承認\nGoffman (1959); Leary & Kowalski (1990)\nSchultze & Brooks (2019)"];
+ e [label="作品と自己の結びつき\nAuthenticity / Ownership\nValsesia (2016); Zhang (2023); Louie (2020)"];
+ f [label="社会的評価の予期\nReif et al. (2025)"];
+ {rank=same;a;b;}
+ a -> c [label="自己の基盤"]; b -> c [label="創造的側面"];
+ c -> d [label="社会的機能", dir=none]; c -> e [label="関連する観測対象", style=dashed, dir=none]; d -> f [label="AI文脈の経験的根拠", dir=none];
+ {rank=same;d;e;}
+}

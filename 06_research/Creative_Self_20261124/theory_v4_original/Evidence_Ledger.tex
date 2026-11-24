@@ -1,0 +1,1252 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  11pt,
+  a4paper,
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+  \setmainfont[]{Liberation Serif}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage[margin=21mm]{geometry}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifLuaTeX
+\usepackage[bidi=basic]{babel}
+\else
+\usepackage[bidi=default]{babel}
+\fi
+\babelprovide[main,import]{japanese}
+\ifPDFTeX
+\else
+\babelfont{rm}[]{Liberation Serif}
+\fi
+% get rid of language-specific shorthands (see #6817):
+\let\LanguageShortHands\languageshorthands
+\def\languageshorthands#1{}
+\usepackage{xeCJK}
+\setCJKmainfont{Noto Serif CJK JP}
+\setCJKsansfont{Noto Sans CJK JP}
+\usepackage{booktabs}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{needspace}
+\usepackage{float}
+\floatplacement{figure}{H}
+\setCJKmonofont{Noto Sans CJK JP}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small Creative Self | Literature working notes}
+\fancyfoot[R]{\small\thepage}
+\setlength{\headheight}{15pt}
+\setlength{\emergencystretch}{3em}
+\setlength{\parskip}{0.55em}
+\setlength{\parindent}{0pt}
+\renewcommand{\arraystretch}{1.24}
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={Creative Self --- 原著引用・文献台帳},
+  pdflang={ja},
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={blue},
+  pdfcreator={LaTeX via pandoc}}
+
+\title{Creative Self --- 原著引用・文献台帳}
+\usepackage{etoolbox}
+\makeatletter
+\providecommand{\subtitle}[1]{% add subtitle to \maketitle
+  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
+\subtitle{固定ID・書籍／論文ページ・PDFページ・日本語訳・引用用途}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+\section{1.
+利用方法と検証状態}\label{ux5229ux7528ux65b9ux6cd5ux3068ux691cux8a3cux72b6ux614b}
+
+引用は提供された原著の該当箇所から抽出し、改行・合字・ハイフネーションを必要に応じて正規化した。短い抜粋と日本語訳を示し、文脈は解説資料で補う。本文引用のページ番号は刊行物のページを優先する。A＝提供原著の該当箇所確認済み。B＝Jussupow
+の引用用途・書誌確認済みだが引用先の全文未精査。C＝Jussupow
+オンライン付録に依存し未確認。直接引用に利用する前には必ず対応ページと照合する。Baumeister
+は画像スキャンのため該当ページを目視転記。日本語訳は本資料の訳である。
+
+\section{2.
+原著引用リスト}\label{ux539fux8457ux5f15ux7528ux30eaux30b9ux30c8}
+
+\subsection{J：Jussupow et al.~(2026) ---
+中核の定義・機構}\label{jjussupow-et-al.-2026-ux4e2dux6838ux306eux5b9aux7fa9ux6a5fux69cb}
+
+\Needspace{5\baselineskip}
+
+\textbf{J01｜p.~5（PDF 5）、§2.4｜Self の定義}
+
+\begin{quote}
+The self reflects an individual's self-reflective understanding of who
+the individual is.
+\end{quote}
+
+訳：自己は、個人が自分が何者であるかを自己反省的に理解したものである。
+
+用途：Baumeister (2010) に依拠する Jussupow の定義。Baumeister
+の逐語引用ではない。
+
+\Needspace{5\baselineskip}
+
+\textbf{J02｜p.~3（PDF 3）、§2.1｜Creative Agency}
+
+\begin{quote}
+We conceptualize this human involvement in shaping the artifact as the
+expression of creative agency (see Amabile 1996).
+\end{quote}
+
+訳：成果物を形作る過程への人間のこの関与を、創造的主体性の表出として概念化する。
+
+用途：創造的成果の質と創造的主体性の区別。Amabile の逐語定義ではなく
+Jussupow による概念化。
+
+\Needspace{5\baselineskip}
+
+\textbf{J03｜p.~5（PDF 5）、§2.4｜Creative Self の定義}
+
+\begin{quote}
+We define the creative self as the part of an individual's self that is
+anchored in one's ability to produce creative artifacts through exerting
+creative agency, that is, the deliberate execution, characterized by
+skillful, intentional acts of evaluation, editing, and refinement.
+\end{quote}
+
+訳：創造的自己とは、創造的主体性、すなわち熟練した意図的な評価、編集、改良を特徴とする意図的遂行を通して、創造的成果物を生み出す能力に根ざした、個人の自己の一部分である。
+
+用途：採用する定義の一次根拠。能力についての信念の水準、承認リスク、心理的所有感を直接定義する文ではない。
+
+\Needspace{5\baselineskip}
+
+\textbf{J04｜p.~5（PDF 5）、§2.4｜社会的構成}
+
+\begin{quote}
+the self is socially constructed through interaction with others
+\end{quote}
+
+訳：自己は他者との相互作用を通じて社会的に構成される。
+
+用途：Goffman、Baumeister (1999) との理論的接続。続く社会的承認の説明は
+Manning (2008), p.~680 を援用。
+
+\Needspace{5\baselineskip}
+
+\textbf{J05｜p.~6（PDF 6）、§2.4｜自己防衛}
+
+\begin{quote}
+On the other hand, the anticipation of GenAI disclosure may cause
+creators to withdraw from the creative process entirely as a means of
+protecting the creative self from the anticipated lack of validation.
+\end{quote}
+
+訳：他方、生成AIの開示の予期は、予想される承認の欠如から創造的自己を守る手段として、創作者を創造的過程から完全に撤退させる可能性がある。
+
+用途：理論上の機構。「may」であり、直接実証した独立尺度ではない。
+
+\Needspace{5\baselineskip}
+
+\textbf{J06｜p.~12（PDF 12）、§5.1.1｜実験2の測定}
+
+\begin{quote}
+Additionally, creators provided survey assessments of their submitted
+images, reflected on their exerted creative agency (see Online Table
+A1), and reported their beliefs about audience responses (see Online
+Table E3).
+\end{quote}
+
+訳：さらに創作者は、提出画像について質問票で評価し、自ら発揮した創造的主体性を振り返り、観客反応に関する信念を報告した。
+
+用途：制作後の測定。付録の原項目は未確認。
+
+\Needspace{5\baselineskip}
+
+\textbf{J07｜p.~18（PDF 18）、§6.4｜競合メカニズム}
+
+\begin{quote}
+we cannot rule out that creators' withdrawal is also influenced by other
+mechanisms.
+\end{quote}
+
+訳：創作者の撤退が他のメカニズムにも影響される可能性を排除できない。
+
+用途：自己防衛による説明は唯一の因果機構と断定できない。
+
+\Needspace{5\baselineskip}
+
+\textbf{J08｜p.~19（PDF 19）、注5｜Self の対象範囲}
+
+\begin{quote}
+the situationally relevant aspects of the broader self that an
+individual presents to others.
+\end{quote}
+
+訳：個人が他者に呈示する、より広い自己のうち状況に関連する側面。
+
+用途：自己全体ではなく、状況に関係する側面という限定。
+
+\subsection{K：Karwowski, Lebuda \& Beghetto (2019) ---
+対照理論}\label{kkarwowski-lebuda-beghetto-2019-ux5bfeux7167ux7406ux8ad6}
+
+\Needspace{5\baselineskip}
+
+\textbf{K01｜p.~397（PDF 419）｜Creative Self}
+
+\begin{quote}
+Creativity researchers tend to view the creative self as part of a
+person's broader identity (see Karwowski \& Kaufman, 2017), rather than
+as the essence of a person.
+\end{quote}
+
+訳：創造性研究者は、創造的自己を人の本質そのものではなく、その人のより広いアイデンティティの一部と捉える傾向にある。
+
+用途：Jussupow と共通する広い自己の一部という発想。
+
+\Needspace{5\baselineskip}
+
+\textbf{K02｜pp.~397--398（PDF 419--420）｜概念の傘}
+
+\begin{quote}
+Creative self-beliefs serve as a conceptual umbrella in creativity
+studies, spanning across a wide family of interrelated yet conceptually
+distinct categories
+\end{quote}
+
+訳：創造的自己信念は創造性研究における包括概念であり、相互に関連しつつ概念的に異なる広範な分類を包含する。
+
+用途：三分類の根拠。単一の総合得点とは限らない。
+
+\Needspace{5\baselineskip}
+
+\textbf{K03｜p.~398（PDF 420）｜CSE}
+
+\begin{quote}
+Creative self-efficacy beliefs refer to a person's perceived confidence
+to creatively perform a given task, in a specific context, at a
+particular level of performance
+\end{quote}
+
+訳：創造的自己効力感は、特定の文脈で所定の遂行水準において、ある課題を創造的に遂行することへの本人の知覚された自信を指す。
+
+用途：具体的な課題についての将来の能力判断。
+
+\Needspace{5\baselineskip}
+
+\textbf{K04｜pp.~400--401（PDF 422--423）｜CSEとCSCの測定の区別}
+
+\begin{quote}
+specificity of performance targets is a key consideration (otherwise,
+such measures likely will tap into more general self-concept beliefs).
+\end{quote}
+
+訳：達成目標の具体性が重要な考慮事項となる（そうでなければ、より一般的な自己概念の信念を捉える可能性が高い）。
+
+用途：SSCS 等の特性的な自己信念とタスク特異的な自己効力感の区別。
+
+\Needspace{5\baselineskip}
+
+\textbf{K05｜p.~403（PDF 425）｜Creative Self-Image}
+
+\begin{quote}
+Creative self-image beliefs pertain to how people perceive creative
+activities, aspirations, and abilities as part of their sense of self.
+\end{quote}
+
+訳：創造的自己像の信念は、創造的活動、志向、能力を自己の一部としてどう知覚するかに関係する。
+
+用途：Jussupow
+に最も近いが、他者からの承認や特定作品との結びつきとは異なる。
+
+\subsection{B：Baumeister (2010) --- Self
+の三つの基盤}\label{bbaumeister-2010-self-ux306eux4e09ux3064ux306eux57faux76e4}
+
+\Needspace{5\baselineskip}
+
+\textbf{B01｜p.~142（PDF 4）、What Is the Self?｜反省的意識}
+
+\begin{quote}
+The first basis for selfhood is consciousness turning around toward
+itself, which is sometimes called ``reflexive consciousness.''
+\end{quote}
+
+訳：自己性の第一の基盤は、意識が自己自身へと向かうことであり、ときに反省的意識と呼ばれる。
+
+用途：自分自身を知ること。単なる自信の尺度ではない。
+
+\Needspace{5\baselineskip}
+
+\textbf{B02｜p.~142（PDF 4）｜対人関係}
+
+\begin{quote}
+The second basis of selfhood is in interpersonal relations. The self
+does not emerge from inside the person but rather is formed in
+interactions and relationships with other people.
+\end{quote}
+
+訳：自己性の第二の基盤は対人関係にある。自己は人の内側から出現するのではなく、他者との相互作用と関係の中で形成される。
+
+用途：Jussupow
+の社会的構成への接続。三基盤のうち第二の説明であって、第一・第三を否定する定義ではない。
+
+\Needspace{5\baselineskip}
+
+\textbf{B03｜p.~142（PDF 4）｜選択と統制}
+
+\begin{quote}
+The third and final basis of selfhood is making choices and exerting
+control.
+\end{quote}
+
+訳：自己性の第三かつ最後の基盤は、選択を行い統制を発揮することである。
+
+用途：自ら選択し作品を形作る主体性との関係を考えるための一般理論。
+
+\Needspace{5\baselineskip}
+
+\textbf{B04｜pp.~145--146（PDF 7--8）、Self-Concept, Schemas, and
+Beyond｜複数の自己知識}
+
+\begin{quote}
+different situations can activate different self-schemas
+\end{quote}
+
+訳：異なる状況は異なる自己スキーマを活性化させうる。
+
+用途：Creative Self
+が自己の全体ではなく状況に関係する側面であるという理解。目視確認した短い抜粋（p.~146）。
+
+\subsection{I：Leary \& Kowalski (1990) ---
+印象管理}\label{ileary-kowalski-1990-ux5370ux8c61ux7ba1ux7406}
+
+\Needspace{5\baselineskip}
+
+\textbf{I01｜p.~34（PDF 1）｜印象管理の定義}
+
+\begin{quote}
+Impression management (also called self-presentation) refers to the
+process by which individuals attempt to control the impressions others
+form of them.
+\end{quote}
+
+訳：印象管理（自己呈示とも呼ばれる）とは、他者が自分について形成する印象を統制しようとする過程である。
+
+用途：他者への呈示と本人の自己知覚の区別。
+
+\Needspace{5\baselineskip}
+
+\textbf{I02｜p.~34（PDF 1）｜内的自己像との区別}
+
+\begin{quote}
+we dispute that this should be regarded as ``self-presentation to the
+self.''
+\end{quote}
+
+訳：これを「自己への自己呈示」とみなすことには異議がある。
+
+用途：直前で自己について特定の信念を維持したい動機は認めている。私的自己認識と対人的な印象管理は同じではない。
+
+\Needspace{5\baselineskip}
+
+\textbf{I03｜p.~36（PDF 3）、Figure 1｜動機}
+
+\begin{quote}
+Goal-relevance of impressions; Value of desired goals; Discrepancy
+between desired and current image
+\end{quote}
+
+訳：印象の目標関連性、望ましい目標の価値、望ましい印象と現在の印象の不一致。
+
+用途：原図の3ラベルをセミコロンで連結。自己呈示への動機を説明する。
+
+\Needspace{5\baselineskip}
+
+\textbf{I04｜p.~36（PDF 3）、Figure 1｜印象構築}
+
+\begin{quote}
+Self-concept; Desired and undesired identity images; Role constraints;
+Target's values; Current or potential social image
+\end{quote}
+
+訳：自己概念、望ましい／望ましくないアイデンティティ像、役割の制約、対象者の価値観、現在または潜在的な社会的イメージ。
+
+用途：原図の5ラベルを連結。どのような印象を形成しようとするかを説明する。
+
+\Needspace{5\baselineskip}
+
+\textbf{I05｜p.~43（PDF 10）｜防衛的戦略}
+
+\begin{quote}
+Protective strategies are used to ward off deterioration of one's public
+image, but forgo further attempts to actively foster particular desired
+impressions.
+\end{quote}
+
+訳：防衛的戦略は公的イメージの悪化を防ぐために用いられるが、特定の望ましい印象を積極的に形成しようとするさらなる試みを断念する。
+
+用途：撤退という Jussupow
+の仮説の先行理論。AI使用に限定した検証ではない。
+
+\subsection{A：Amabile (1982) ---
+成果物評価}\label{aamabile-1982-ux6210ux679cux7269ux8a55ux4fa1}
+
+\Needspace{5\baselineskip}
+
+\textbf{A01｜p.~1001（PDF 5）｜合意的定義}
+
+\begin{quote}
+A product or response is creative to the extent that appropriate
+observers independently agree it is creative.
+\end{quote}
+
+訳：成果物または反応は、適切な観察者が独立にそれを創造的だと判断することに合意する程度において創造的である。
+
+用途：CAT の操作的定義。Creative Self の尺度ではない。
+
+\Needspace{5\baselineskip}
+
+\textbf{A02｜p.~1001（PDF 5）｜観察者の適切性}
+
+\begin{quote}
+Appropriate observers are those familiar with the domain in which the
+product was created or the response articulated.
+\end{quote}
+
+訳：適切な観察者とは、成果物が作られた、または反応が表現された領域に通じている者である。
+
+用途：評価者の選定。
+
+\Needspace{5\baselineskip}
+
+\textbf{A03｜p.~1002（PDF 6）｜独立性}
+
+\begin{quote}
+the judges must make their assessments independently.
+\end{quote}
+
+訳：評価者は独立に評価を行わなければならない。
+
+用途：評定の独立性。研究者が評価者間の一致を人為的に作るべきではないという後続記述と読む。
+
+\subsection{V：Valsesia, Nunes \& Ordanini (2016) --- Creative
+Authenticity}\label{vvalsesia-nunes-ordanini-2016-creative-authenticity}
+
+\Needspace{5\baselineskip}
+
+\textbf{V01｜p.~898（PDF 2）｜Creative Control}
+
+\begin{quote}
+the extent to which the same entity (individual or organization) was
+responsible for the creative process, what we call creative control
+\end{quote}
+
+訳：同一の主体（個人または組織）が創作過程に責任を持った程度を、私たちは創造的コントロールと呼ぶ。
+
+用途：創作過程の責任配分。Jussupow の creative agency
+と関連するが等しくない。
+
+\Needspace{5\baselineskip}
+
+\textbf{V02｜p.~901（PDF 5）｜Creative Authenticity の直接定義}
+
+\begin{quote}
+Our construct of creative authenticity captures the extent to which a
+product is perceived by consumers as a faithful execution of the
+creator's vision and thus describes the connection between the outcome
+and the process.
+\end{quote}
+
+訳：創造的真正性という構成概念は、製品が創作者の構想を忠実に実現したものとして消費者に知覚される程度を捉え、成果と過程の関係を記述する。
+
+用途：原研究の回答者は消費者。自分の作品の真正性評価とは区別する。
+
+\Needspace{5\baselineskip}
+
+\textbf{V03｜p.~908（PDF 12）、Study 4｜原尺度の両極ラベル}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+原尺度（英語、原著に記載の両極）
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+日本語訳
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+being personal (about self) versus being impersonal (about others) &
+個人的（自己について）／非個人的（他者について） \\
+being a form of self-expression versus being a form of interpretation &
+自己表現／解釈の形式 \\
+being a form of art versus being a form of entertainment &
+芸術／娯楽の形式 \\
+reflecting true inspiration versus reflecting commercial purposes &
+真の着想を反映／商業的目的を反映 \\
+being truthful versus being untruthful & 真実である／真実でない \\
+being composed with integrity versus being composed without integrity &
+誠実さをもって制作／誠実さなく制作 \\
+\end{longtable}
+
+原著では9段階、6尺度平均、α=.87。別に真正性の単一項目。Jussupow
+の5変数と数も構成も異なるため、逐語的な移植とは断定しない。原著尺度の検証結果は改変後の尺度に自動的には継承されない。
+
+\Needspace{5\baselineskip}
+
+\textbf{V04｜p.~908（PDF 12）、Study 4｜調整媒介の結果}
+
+\begin{quote}
+when the creator was described as trustworthy, the total effect creative
+control had on recognition is fully mediated by perceptions of creative
+authenticity
+\end{quote}
+
+訳：作者が信頼できると記述された場合、創造的コントロールが recognition
+に及ぼした総効果は創造的真正性の知覚によって完全に媒介された。
+
+用途：受け手の承認との関連。信頼できない作者条件で同じ結果は得られない。研究の推定結果であり無条件の因果法則ではない。
+
+\subsection{Z：Zhang, Zhou \& Yan (2023) --- Psychological
+Ownership}\label{zzhang-zhou-yan-2023-psychological-ownership}
+
+\Needspace{5\baselineskip}
+
+\textbf{Z01｜p.~1104（PDF 2）、§2.1｜心理的所有感}
+
+\begin{quote}
+psychological ownership refers to the feeling of ownership held in the
+individual's mind.
+\end{quote}
+
+訳：心理的所有感は個人の心の中にある所有の感覚を指す。
+
+用途：法的所有権との区別。原著は Pierce et al.~(2003, p.~86)
+を援用する。
+
+\Needspace{5\baselineskip}
+
+\textbf{Z02｜p.~1104（PDF 2）、§2.1｜自己への分類}
+
+\begin{quote}
+a sense of ownership leads consumers to systematically change their
+mental representation of the owned object
+\end{quote}
+
+訳：所有感により消費者は所有対象の心的表象を体系的に変化させる。
+
+用途：ECT（Weiss \& Johar）に基づく所有物の自己への分類。Creative Self
+を直接測っていない。
+
+\Needspace{5\baselineskip}
+
+\textbf{Z03｜p.~1109（PDF 7）、Study 2｜Selfカテゴリー化の尺度}
+
+\begin{quote}
+1 = ``Not at all self,'' 7 = ``Very much self,''
+\end{quote}
+
+訳：1＝全く自己ではない、7＝非常に自己である。
+
+用途：製品をSelfカテゴリーに分類する程度。所有感とは別測定。原文の句読点を保持。
+
+\subsection{L：Louie et al.~(2020) ---
+人間AI共同創作}\label{llouie-et-al.-2020-ux4ebaux9593aiux5171ux540cux5275ux4f5c}
+
+\Needspace{5\baselineskip}
+
+\textbf{L01｜p.~6（PDF 6）、Measures｜Creative expression}
+
+\begin{quote}
+I was able to express my creative goals in the composition made using
+{[}System X{]}.
+\end{quote}
+
+訳：［システムX］で作成した楽曲に自分の創造的目標を表現できた。
+
+用途：創作後の自己表現評価。
+
+\Needspace{5\baselineskip}
+
+\textbf{L02｜p.~6（PDF 6）、Measures｜Ownership}
+
+\begin{quote}
+I felt the composition created was mine.
+\end{quote}
+
+訳：作成した楽曲は自分のものだと感じた。
+
+用途：制作後、7段階の所有感項目。法的所有権ではない。
+
+\Needspace{5\baselineskip}
+
+\textbf{L03｜p.~6（PDF 6）、Measures｜Attribution}
+
+\begin{quote}
+1=totally due to the system's contributions, 7=totally due to my
+contributions.
+\end{quote}
+
+訳：1＝完全にシステムの貢献による、7＝完全に自分の貢献による。
+
+用途：貢献帰属と所有感の区別。帰属の相対的評価。
+
+\Needspace{5\baselineskip}
+
+\textbf{L04｜p.~6（PDF 6）、Measures｜Self-efficacy}
+
+\begin{quote}
+Users answered two items from the Generalized Self-Efficacy scale
+{[}40{]} that were rephrased for music composition.
+\end{quote}
+
+訳：利用者は作曲に合わせて言い換えられた一般自己効力感尺度の2項目に回答した。
+
+用途：所有感・自己表現・自己効力感は別々に測定。ここでも SSCS
+は用いていない。
+
+\subsection{R：Reif, Larrick \& Soll (2025) ---
+AI利用者への社会的評価}\label{rreif-larrick-soll-2025-aiux5229ux7528ux8005ux3078ux306eux793eux4f1aux7684ux8a55ux4fa1}
+
+\Needspace{5\baselineskip}
+
+\textbf{R01｜p.~1/7（PDF 1）｜研究の目的}
+
+\begin{quote}
+people believe they will be evaluated negatively by others for using AI
+tools and that this belief is justified.
+\end{quote}
+
+訳：人はAIツールを使用することで他者から否定的に評価されると信じており、その信念には根拠がある。
+
+用途：著者の研究上の予測。能力についての本人の信念ではなく他者の評価予期。
+
+\Needspace{5\baselineskip}
+
+\textbf{R02｜p.~2/7（PDF 2）｜帰属の問題}
+
+\begin{quote}
+observers must determine how much credit is due to the person versus the
+assistance
+\end{quote}
+
+訳：観察者は、どの程度の功績が本人に、どの程度が支援に帰属するかを判断しなければならない。
+
+用途：Jussupow の人間の創造的貢献が認められないという予期の接続。
+
+\Needspace{5\baselineskip}
+
+\textbf{R03｜p.~2/7（PDF 2）、Study 1｜評価予期の次元}
+
+\begin{quote}
+laziness, replaceability, competence, and diligence.
+\end{quote}
+
+訳：怠惰さ、代替可能性、能力、勤勉性。
+
+用途：予期される社会的評価の4次元。創造的真正性・自己効力感の直接尺度ではない。
+
+\Needspace{5\baselineskip}
+
+\textbf{R04｜p.~3/7（PDF 3）、Study 3｜条件依存性}
+
+\begin{quote}
+manager participants rated candidates who regularly use AI and
+candidates who never use AI as similarly fit for the task
+\end{quote}
+
+訳：管理者役の参加者は、AIを定期的に使用する候補者と全く使用しない候補者を、タスクへの適合性について同程度と評価した。
+
+用途：平均効果についての記述。直後に評価者自身のAI使用頻度による調整が報告される。無条件の評価ペナルティと解釈しない。
+
+\subsection{追加6原著の引用（v4）}\label{ux8ffdux52a06ux539fux8457ux306eux5f15ux7528v4}
+
+\Needspace{5\baselineskip}
+
+\textbf{G01｜Goffman (1956)｜p.~8 / PDF 18｜performance}
+
+\begin{quote}
+all the activity of a given participant on a given occasion which serves
+to influence in any way any of the other participants.
+\end{quote}
+
+訳：ある場面において他の参加者に何らかの影響を与える、特定の参加者の活動全体。
+
+用途：自己呈示を内的信念でなく相互作用上の活動として理解する。
+
+\Needspace{5\baselineskip}
+
+\textbf{G02｜Goffman (1956)｜p.~7 / PDF 17｜防衛}
+
+\begin{quote}
+defensive practices
+\end{quote}
+
+訳：防衛的実践。
+
+用途：自分の投影した状況定義を守る実践。相手が守る protective practices
+とは区別する。
+
+\Needspace{5\baselineskip}
+
+\textbf{G03｜Goffman (1956)｜p.~69 / PDF 79｜選択的呈示}
+
+\begin{quote}
+some aspects of the activity are expressively accentuated and other
+aspects, which might discredit the fostered impression, are suppressed.
+\end{quote}
+
+訳：活動の一部は表現上強調され、形成された印象を損ないうる他の部分は抑えられる。
+
+用途：Jussupow p.~5 が引用する front/back の基盤。
+
+\Needspace{5\baselineskip}
+
+\textbf{G04｜Goffman (1956)｜p.~69 / PDF 79｜舞台裏}
+
+\begin{quote}
+where the impression fostered by the performance is knowingly
+contradicted as a matter of course.
+\end{quote}
+
+訳：そのパフォーマンスが生じさせた印象が、当然のこととして意識的に覆される場所。
+
+用途：舞台裏の定義の一部。隠された活動がすべて不正という意味ではない。
+
+\Needspace{5\baselineskip}
+
+\textbf{G05｜Goffman (1956)｜p.~156 / PDF 166｜役割と自己}
+
+\begin{quote}
+the self-conceptions around which he has built his personality may
+become discredited.
+\end{quote}
+
+訳：その人物が人格を形成する基盤としてきた自己概念の信頼性が損なわれることがある。
+
+用途：役割への同一化が深い場合の呈示の失敗。自己の変化を測定する尺度ではない。
+
+\Needspace{5\baselineskip}
+
+\textbf{M01｜Manning (2008)｜p.~680 / PDF 4｜応答による承認}
+
+\begin{quote}
+it is through the response that the first move is confirmed as existing
+or having meaning.
+\end{quote}
+
+訳：応答を通じて、最初の行為が存在するもの、あるいは意味を持つものとして確認される。
+
+用途：Jussupow の直接引用句の原文。主語は self ではなく first move。
+
+\Needspace{5\baselineskip}
+
+\textbf{M02｜Manning (2008)｜p.~680 / PDF 4｜応答が得られない場合}
+
+\begin{quote}
+alienation, embarrassment, withdrawal, defence or retrying will result.
+\end{quote}
+
+訳：疎外、困惑、撤退、防衛、あるいは再試行が生じる。
+
+用途：相互作用への応答が期待に反する場合の多様な反応。必ず撤退するとは限らない。
+
+\Needspace{5\baselineskip}
+
+\textbf{M03｜Manning (2008)｜p.~686 / PDF 10｜相互作用の優先}
+
+\begin{quote}
+Presentation, that is interaction, is more important than self.
+\end{quote}
+
+訳：呈示、すなわち相互作用は、自己より重要である。
+
+用途：Goffman 解釈において相互作用を中心に置くという Manning の見解。
+
+\Needspace{5\baselineskip}
+
+\textbf{S01｜Schultze \& Brooks (2019)｜p.~707 / PDF 1｜社会的存在}
+
+\begin{quote}
+interactants' joint construction of each other as ``real.''
+\end{quote}
+
+訳：相互作用者が互いを「現実の存在」として共同で構築すること。
+
+用途：Social Presence は単なる媒体の性質ではなく相互作用で達成される。
+
+\Needspace{5\baselineskip}
+
+\textbf{S02｜Schultze \& Brooks (2019)｜p.~714 / PDF 8｜自己の脆弱性}
+
+\begin{quote}
+its need for continuous social interaction and others' validation
+renders the self fragile and insecure
+\end{quote}
+
+訳：継続的な社会的相互作用と他者の承認を必要とすることが、自己を脆弱で不安定にする。
+
+用途：Goffman を解釈する二次的な理論説明。
+
+\Needspace{5\baselineskip}
+
+\textbf{S03｜Schultze \& Brooks (2019)｜p.~723 / PDF 17｜相互的関与義務}
+
+\begin{quote}
+Phase 3 of the social presence mechanism is characterized by
+interlocking involvement obligation
+\end{quote}
+
+訳：社会的存在のメカニズムの第3段階は相互に連動する関与義務によって特徴づけられる。
+
+用途：Table 1 と本文の段階モデル。
+
+\Needspace{5\baselineskip}
+
+\textbf{S04｜Schultze \& Brooks (2019)｜p.~723 / PDF 17｜自己の承認}
+
+\begin{quote}
+To the extent that the other validates the self that the focal actor is
+presenting, he is confirming that she exists as expressed in the virtual
+environment.
+\end{quote}
+
+訳：他者が当事者の呈示する自己を承認する限り、仮想環境で表現された通りにその人が存在することを確認する。
+
+用途：相互的な人間同士の社会的承認。
+
+\Needspace{5\baselineskip}
+
+\textbf{S05｜Schultze \& Brooks (2019)｜p.~725 / PDF
+19｜AIへの適用の限界}
+
+\begin{quote}
+the autonomous agent is presumably not presenting a ``self'' that needs
+validation by the human other
+\end{quote}
+
+訳：自律エージェントは、人間の相手に承認してもらう必要のある「自己」を呈示しているわけではないと考えられる。
+
+用途：AI評価者では相互的な自己呈示の前提が異なる。著者の理論的推論。
+
+\Needspace{5\baselineskip}
+
+\textbf{S06｜Schultze \& Brooks (2019)｜p.~725 / PDF 19｜AIによる承認}
+
+\begin{quote}
+the AI agent's validation of a human's presentation of self may be
+ineffective
+\end{quote}
+
+訳：AIエージェントによる人間の自己呈示の承認は有効でない可能性がある。
+
+用途：今回の研究への最重要の接続。ただし同論文でAI条件を実験検証していない。
+
+\Needspace{5\baselineskip}
+
+\textbf{H01｜Harvey \& Berry (2023)｜p.~504 / PDF 1｜創造性の三形態}
+
+\begin{quote}
+creativity as maximization, creativity as balance, and creativity as
+integration.
+\end{quote}
+
+訳：最大化としての創造性、均衡としての創造性、統合としての創造性。
+
+用途：新規性と有用性の関係は一種類ではない。
+
+\Needspace{5\baselineskip}
+
+\textbf{H02｜Harvey \& Berry (2023)｜p.~505 / PDF 2｜執筆課題}
+
+\begin{quote}
+grappling with language, character, and story arc while writing.
+\end{quote}
+
+訳：執筆中に言語表現、登場人物、物語の展開に取り組むこと。
+
+用途：書籍執筆における統合型創造性の例。単に既存アイデアを実行するだけではない。
+
+\Needspace{5\baselineskip}
+
+\textbf{H03｜Harvey \& Berry (2023)｜p.~516 / PDF 13｜課題適合性}
+
+\begin{quote}
+The usefulness of the concept is determined by whether it offers a
+blueprint for developing a novel; that is, the fit with the task.
+\end{quote}
+
+訳：構想の有用性は、小説を展開するための設計図になるか、すなわち課題に適合するかによって決まる。
+
+用途：創作の目的や制約が有用性評価を構成しうる。
+
+\Needspace{5\baselineskip}
+
+\textbf{P01｜Pierce et al.~(2003)｜p.~86 / PDF 3｜心理的所有感}
+
+\begin{quote}
+the state in which individuals feel as though the target of ownership or
+a piece of that target is ``theirs''
+\end{quote}
+
+訳：所有対象またはその一部を、自分のものだと感じる状態。
+
+用途：所有感の定義。自己の創造的能力についての信念とは別。
+
+\Needspace{5\baselineskip}
+
+\textbf{P02｜Pierce et al.~(2003)｜p.~84 / PDF 1｜動機}
+
+\begin{quote}
+efficacy and effectance, self-identity, and having a place to dwell
+\end{quote}
+
+訳：効力感と環境への働きかけ、自己アイデンティティ、居場所を持つこと。
+
+用途：所有感を生じさせる動機についての理論的整理。CSEの下位尺度ではない。
+
+\Needspace{5\baselineskip}
+
+\textbf{P03｜Pierce et al.~(2003)｜p.~92 / PDF 9｜三つの経路}
+
+\begin{quote}
+controlling the ownership target (object), coming to know the target
+intimately, and investing the self in the target.
+\end{quote}
+
+訳：所有対象を統制すること、対象を深く知ること、対象に自己を投入すること。
+
+用途：創作への関与と作品との結びつきを説明する理論。
+
+\Needspace{5\baselineskip}
+
+\textbf{E01｜Inzlicht et al.~(2018)｜p.~338 / PDF 2｜努力の定義}
+
+\begin{quote}
+Effort refers to the subjective intensification of mental and/or
+physical activity in the service of meeting some goal
+\end{quote}
+
+訳：努力とは、ある目標を達成するために精神的または身体的活動を主観的に強めることである。
+
+用途：努力と難易度、能力、動機づけを区別。
+
+\Needspace{5\baselineskip}
+
+\textbf{E02｜Inzlicht et al.~(2018)｜p.~337 / PDF 1｜努力の正の価値}
+
+\begin{quote}
+effort can also add value
+\end{quote}
+
+訳：努力は価値を付加することもある。
+
+用途：努力がコストであると同時に価値を持ちうるというレビューの中心命題。
+
+\Needspace{5\baselineskip}
+
+\textbf{E03｜Inzlicht et al.~(2018)｜p.~342 / PDF 6｜価値の対象}
+
+\begin{quote}
+people can ascribe value to effort itself
+\end{quote}
+
+訳：人は努力そのものにも価値を見いだしうる。
+
+用途：成果の価値と努力自体の価値を区別。自己防衛説の直接的な検証ではない。
+
+\section{3. Jussupow
+の測定対応表：検証済みと未確認の分離}\label{jussupow-ux306eux6e2cux5b9aux5bfeux5fdcux8868ux691cux8a3cux6e08ux307fux3068ux672aux78baux8a8dux306eux5206ux96e2}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+本文・表の所在
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+本文で確認済み
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+未確認の内容
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+p.~12 §5.1.1; p.~14 Table 2 &
+制作後の質問票、プロンプト、努力、真正性関連5変数、所有感、作品評価 & A1
+の項目の逐語表現、尺度点数、出典、集約方法 \\
+p.~15 §5.2.2 & 観客反応予期について努力・誠実性の結果 & E3
+全項目・尺度・測定指示、E9 全回帰結果 \\
+p.~19 注8 & 事前登録した仮説と逸脱は付録D1で説明 & D1の詳細な変更内容 \\
+pp.~8, 13 & 評価者・創作者の統制変数が存在 & SSCS等の補助的使用の有無 \\
+\end{longtable}
+
+以前の資料で暫定的に示された A1 の Valsesia、Zhang、Louie
+等への尺度出典の対応は、今回原著は確認できたが Jussupow
+付録そのものを再取得できず、確定させない。本文の参考文献にはこれら三文献が確認されない（付録参考文献は別途ありうる）。質問票設計に用いる場合は付録と照合し、原尺度からの改変、回答対象、尺度点数、信頼性・妥当性を明らかにする。
+
+\section{4.
+文献索引・リンク・取得状況}\label{ux6587ux732eux7d22ux5f15ux30eaux30f3ux30afux53d6ux5f97ux72b6ux6cc1}
+
+\subsection{4.1
+提供原著の該当箇所確認済み（A）}\label{ux63d0ux4f9bux539fux8457ux306eux8a72ux5f53ux7b87ux6240ux78baux8a8dux6e08ux307fa}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+ID
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+書誌・リンク
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+推奨読書箇所・役割
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+J & Jussupow, E., Bauer, K., Heigl, R. M., Vogt, B., \& Hinz, O. (2026).
+The indirect disclosure effect: How disclosing generative AI use impacts
+human creative collaboration with AI. \emph{Information Systems
+Research}, 1--21. \href{https://doi.org/10.1287/isre.2024.0951}{DOI} &
+pp.~3--6, 12--15, 18--19。中核定義・操作化・限界 \\
+K & Karwowski, M., Lebuda, I., \& Beghetto, R. A. (2019). Creative
+self-beliefs. In J. C. Kaufman \& R. J. Sternberg (Eds.), \emph{The
+Cambridge Handbook of Creativity} (2nd ed.).
+\href{https://doi.org/10.1017/9781316979839.021}{DOI} &
+pp.~397--404。概念比較 \\
+B & Baumeister, R. F. (2010). The self. In R. F. Baumeister \& E. J.
+Finkel (Eds.), \emph{Advanced Social Psychology: The State of the
+Science}, 139--175. Oxford UP.
+\href{https://scholar.google.com/scholar?q=Baumeister+2010+The+Self+Advanced+Social+Psychology}{書誌検索}
+& pp.~142--146。Selfの三基盤 \\
+I & Leary, M. R., \& Kowalski, R. M. (1990). Impression management: A
+literature review and two-component model. \emph{Psychological
+Bulletin}, 107(1), 34--47.
+\href{https://doi.org/10.1037/0033-2909.107.1.34}{DOI} & pp.~34--36,
+43。印象管理・防衛 \\
+A & Amabile, T. M. (1982). Social psychology of creativity: A consensual
+assessment technique. \emph{Journal of Personality and Social
+Psychology}, 43(5), 997--1013.
+\href{https://doi.org/10.1037/0022-3514.43.5.997}{DOI} &
+pp.~1000--1002。CAT \\
+V & Valsesia, F., Nunes, J. C., \& Ordanini, A. (2016). What wins awards
+is not always what I buy: How creative control affects authenticity and
+thus recognition (but not liking). \emph{Journal of Consumer Research},
+42(6), 897--914. \href{https://doi.org/10.1093/jcr/ucv093}{DOI} &
+pp.~897--901, 908。真正性定義・原尺度 \\
+Z & Zhang, Z., Zhou, Q., \& Yan, D. (2023). It's not mine:
+Anthropomorphism attenuates the effect of psychological ownership on
+product-to-self judgment. \emph{Psychology \& Marketing}, 40(6),
+1103--1114. \href{https://doi.org/10.1002/mar.21800}{DOI} &
+pp.~1103--1105, 1108--1109。所有感と自己 \\
+L & Louie, R., Coenen, A., Huang, C. Z., Terry, M., \& Cai, C. J.
+(2020). Novice-AI music co-creation via AI-steering tools for deep
+generative models. \emph{CHI 2020}, Paper 610.
+\href{https://doi.org/10.1145/3313831.3376739}{DOI} & pp.~6--7,
+9--10。共同創作の測定 \\
+R & Reif, J. A., Larrick, R. P., \& Soll, J. B. (2025). Evidence of a
+social evaluation penalty for using AI. \emph{PNAS}, 122(19),
+e2426766122. \href{https://doi.org/10.1073/pnas.2426766122}{DOI} &
+pp.~1--4。評価予期・実際の評価 \\
+\end{longtable}
+
+\subsection{4.2 理論文献（追加提供済み A／未提供
+B）}\label{ux7406ux8ad6ux6587ux732eux8ffdux52a0ux63d0ux4f9bux6e08ux307f-aux672aux63d0ux4f9b-b}
+
+Goffman（提供版1956）、Manning、Schultze \& Brooks、Harvey \&
+Berry、Pierce、Inzlicht は v4
+で原著該当箇所を確認した（A）。その他の行は B のまま。
+
+以下は Jussupow が引用する文献の書誌と本文での用途。A
+の原著抜粋は第2節を参照。B
+は原著未確認のため直接引用文を作成しない。書籍へのリンクは書誌検索を含む。
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+優先
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+文献・リンク
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Jussupow の用途・ページ
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+最優先 & Goffman, E. (1959). \emph{The Presentation of Self in Everyday
+Life}. Doubleday. 提供版は Edinburgh 1956年版（Monograph No.~2）。
+\href{https://scholar.google.com/scholar?q=Goffman+1959+The+Presentation+of+Self+in+Everyday+Life}{書誌検索}
+& p.~5。自己呈示、front/backstage。原著pp. 67, 69が本文に引用される \\
+最優先 & Manning, P. K. (2008). Goffman on organizations.
+\emph{Organization Studies}, 29(5), 677--699.
+\href{https://doi.org/10.1177/0170840608088767}{DOI} &
+p.~5。自己の社会的承認、原著p. 680 \\
+最優先 & Schultze, U., \& Brooks, J. A. M. (2019). An interactional view
+of social presence: Making the virtual other ``real''. \emph{Information
+Systems Journal}, 29(3), 707--737.
+\href{https://doi.org/10.1111/isj.12230}{DOI} & pp.~2,
+5。仮想的他者・社会的承認 \\
+高 & Baumeister, R. F. (1999). The nature and structure of the self. In
+\emph{The Self in Social Psychology}, 1--20.
+\href{https://scholar.google.com/scholar?q=Baumeister+1999+The+nature+and+structure+of+the+self}{書誌検索}
+& p.~5, p.~19注5。自己の社会的・複数的側面 \\
+高 & Schlenker, B. R. (1986). Self-identification: Toward an integration
+of the private and public self. In \emph{Public Self and Private Self},
+21--62.
+\href{https://scholar.google.com/scholar?q=Schlenker+1986+Self-identification+private+public+self}{書誌検索}
+& p.~5。想定された他者の反応 \\
+高 & Amabile, T. M. (1996). \emph{Creativity in Context}. Routledge.
+\href{https://scholar.google.com/scholar?q=Amabile+1996+Creativity+in+Context}{書誌検索}
+& p.~3。創造的成果・過程・agency \\
+高 & Amabile, T. M., \& Pratt, M. G. (2016). The dynamic componential
+model of creativity and innovation in organizations: Making progress,
+making meaning. \emph{Research in Organizational Behavior}, 36,
+157--183. \href{https://doi.org/10.1016/j.riob.2016.10.001}{DOI} &
+p.~3。創造的過程 \\
+高 & Harvey, S., \& Berry, J. W. (2023). Toward a meta-theory of
+creativity forms: How novelty and usefulness shape creativity.
+\emph{Academy of Management Review}, 48(3), 504--529.
+\href{https://doi.org/10.5465/amr.2020.0110}{DOI} &
+p.~3。新規性・有用性・実現 \\
+高 & Csikszentmihalyi, M. (2014). Society, culture, and person: A
+systems view of creativity. In \emph{The Systems Model of Creativity},
+47--61.
+\href{https://scholar.google.com/scholar?q=Csikszentmihalyi+2014+Society+culture+and+person+a+systems+view+of+creativity}{書誌検索}
+& p.~3。創造性評価の社会性 \\
+高 & Pierce, J. L., Kostova, T., \& Dirks, K. T. (2003). The state of
+psychological ownership: Integrating and extending a century of
+research. \emph{Review of General Psychology}, 7(1), 84--107.
+\href{https://doi.org/10.1037/1089-2680.7.1.84}{DOI} &
+p.~6。所有感と主体性；Zhang p.~1104の定義も援用 \\
+参考 & Peck, J., \& Luangrath, A. W. (2023). A review and future avenues
+for psychological ownership in consumer research. \emph{Consumer
+Psychology Review}, 6(1), 52--74.
+\href{https://scholar.google.com/scholar?q=Peck+Luangrath+2023+A+review+and+future+avenues+psychological+ownership}{書誌検索}
+& p.~6。所有感 \\
+参考 & Oppenlaender, J., Linder, R., \& Silvennoinen, J. (2025).
+Prompting AI art: An investigation into the creative skill of prompt
+engineering. \emph{International Journal of Human--Computer
+Interaction}, 41(16), 10207--10229.
+\href{https://doi.org/10.1080/10447318.2024.2431761}{DOI} & pp.~4, 6,
+12。プロンプト技能 \\
+高 & Inzlicht, M., Shenhav, A., \& Olivola, C. Y. (2018). The effort
+paradox: Effort is both costly and valued. \emph{Trends in Cognitive
+Sciences}, 22(4), 337--349.
+\href{https://doi.org/10.1016/j.tics.2018.01.007}{DOI} &
+p.~18。競合機構、努力の見返り \\
+\end{longtable}
+
+\subsection{4.3 比較用・付録}\label{ux6bd4ux8f03ux7528ux4ed8ux9332}
+
+\begin{itemize}
+\tightlist
+\item
+  Karwowski, M., Lebuda, I., \& Wiśniewska, E. (2018). Measuring
+  creative self-efficacy and creative personal identity.
+  \emph{International Journal of Creativity \& Problem Solving}, 28(1),
+  45--57.
+  \href{https://www.researchgate.net/publication/325070288_Measuring_Creative_Self-efficacy_and_Creative_Personal_Identity}{原著公開コピー}。SSCS
+  の原著。Jussupowの直接引用文献ではない。
+\item
+  Bandura, A. (2006). Guide for constructing self-efficacy scales. In F.
+  Pajares \& T. Urdan (Eds.), \emph{Self-Efficacy Beliefs of
+  Adolescents}, 307--337.
+  既提供原著、比較用。CSEを別に測る場合のみ必要。
+\item
+  Jussupow
+  オンライン付録：\href{https://pubsonline.informs.org/doi/suppl/10.1287/isre.2024.0951/suppl_file/isre.2024.0951.sm1.pdf}{出版社PDF（取得要再試行）}。Table
+  A1、E3、E9、D1。
+\item
+  Jussupow
+  事前登録：\href{https://osf.io/sp7qh/?view_only=a46b637f786e493ca968c4b34dc490f8}{実験1
+  OSF}・\href{https://osf.io/eaujy?view_only=75f050b712e240ca892df32490772989}{実験2
+  OSF}（本文p. 19注6のURL、今回の内容照合は未実施）。
+\end{itemize}
+
+\section{5.
+今後の検証記録}\label{ux4ecaux5f8cux306eux691cux8a3cux8a18ux9332}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Goffman（1956年版）、Manning、Schultze \& Brooks の該当箇所は v4
+  で確認。AI評価への実験的適用は未検証。Amabile \& Pratt (2016)
+  等の未提供文献、Jussupow付録を引き続き確認する。
+\item
+  Jussupow
+  付録を取得し、各項目・点数・原尺度・改変内容、統制変数、事前登録との差分を固定ID付きで追記する。
+\item
+  各原尺度を評価者比較課題に転用するなら、語の理解可能性、回答者視点、測定タイミング、因子構造・信頼性を再検討する。
+\item
+  研究の主要従属変数を Creative Self
+  自体と呼ばない。自己呈示、社会的承認期待、真正性、心理的所有感、創造的成果のうち何を測るかを明示する。
+\end{enumerate}
+
+\end{document}

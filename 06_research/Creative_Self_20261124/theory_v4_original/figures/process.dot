@@ -1,0 +1,16 @@
+digraph G {
+ graph [rankdir=TB, bgcolor="white", pad=.15, nodesep=.23, ranksep=.28, fontname="Noto Sans CJK JP"];
+ node [shape=box, style="rounded,filled", color="#667789", fillcolor="#F2F5F8", fontname="Noto Sans CJK JP", fontsize=11, margin=".13,.08"];
+ edge [fontname="Noto Sans CJK JP", fontsize=9, color="#52677D", arrowsize=.6];
+ x [label="実験操作：AI使用の開示予期 × 観客の専門性", fillcolor="#E1EAF2"];
+ b [label="観客が人間の貢献を認めるかという予期\n（SOBは実験2の制作後に測定）"];
+ t [label="Creative Selfが承認されないリスク\n（独立の脅威尺度は本文で確認できない）", style="rounded,dashed",fillcolor="white"];
+ alt [label="競合説明：努力の期待収益の低下", style="rounded,dashed",fillcolor="white"];
+ w [label="撤退・関与の低下\n短いプロンプト、努力低下等"];
+ h [label="協働の深化・別の自己呈示\n実験1の質的パターン"];
+ p [label="作品と自己の結びつき\n真正性・心理的所有感"];
+ y [label="作品の評価\n創作者／外部観客：新規性・魅力・品質"];
+ x -> b [style=dashed]; b -> t [style=dashed]; b -> alt [style=dashed]; t -> w [style=dashed]; t -> h [style=dashed]; alt -> w [style=dashed];
+ w -> p [style=dashed]; h -> p [style=dashed]; p -> y [style=dashed,label="関係は一意に識別されていない"];
+ {rank=same;t;alt;} {rank=same;w;h;}
+}

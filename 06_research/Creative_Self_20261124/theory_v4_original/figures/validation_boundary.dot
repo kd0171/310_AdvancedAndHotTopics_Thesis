@@ -1,0 +1,14 @@
+digraph G {
+ graph [rankdir=TB, bgcolor="white", pad=0.15, nodesep=0.28, ranksep=0.35, fontname="Noto Sans CJK JP"];
+ node [shape=box, style="rounded,filled", fillcolor="#F4F7FA", color="#60778A", fontname="Noto Sans CJK JP", fontsize=11, margin="0.15,0.1"];
+ edge [color="#60778A", fontname="Noto Sans CJK JP", fontsize=10];
+ a [label="人間と人間の相互作用\nSchultze & Brooks (2019)"];
+ b [label="共在 → 共同活動 → 相互的関与義務"];
+ c [label="社会的自己の相互承認"];
+ d [label="人間とAIの相互作用\np. 725 の理論的議論"];
+ e [label="共在・適切な応答は成立しうる\n相互的な自己防衛の動機は異なる"];
+ f [label="AIの承認は有効でない可能性"];
+ h [label="今回の検証候補：評価主体の違い\n承認への期待・価値・自己呈示・努力",fillcolor="#FFFFFF",style="rounded,dashed"];
+ {rank=same;a;d} {rank=same;b;e} {rank=same;c;f}
+ a->b->c;d->e->f;c->h[style=dashed];f->h[style=dashed];
+}
