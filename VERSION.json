@@ -1,10 +1,10 @@
 {
-  "latest": "v006_20261125",
+  "latest": "v007_20261125",
   "created": "2026-11-25",
-  "mode": "FULL_SYSTEM_RESTRUCTURED_ACADEMIC_CHAPTER_02_03",
-  "status": "ACADEMIC_WORKING_DRAFT_NOT_FOR_SUBMISSION",
+  "mode": "FULL_SYSTEM_THEORETICAL_LINEAGE_REVISION_02_03",
+  "status": "RESEARCH_WORKING_DRAFT_NOT_SUBMISSION",
   "source_count": 16,
   "source_fulltext_available": 13,
   "verified_body_quote_count": 13,
-  "notes": "Chapters 2,3 rewritten in DE and JA following four-section academic structure; one provisional RQ, not final protocol. All prior systems/IDs retained, cumulative discussion v005, source boundary. AI-generated submission text forbidden; no layout page check."
+  "notes": "Ch 2 and 3 rewritten in DE/JA according to theory lineage, discussion v009; older chapters and source material retained. RQ/method not finalized. AI-generated submission copy forbidden. Layout page limits not checked."
 }

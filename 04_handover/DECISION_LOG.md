@@ -26,3 +26,11 @@
 - **Evidence verified**: Jussupow_metrics.pdfでTable A1/C3/D1/E3/E9の測定項目、元の研究の操作が確認できる。JussupowのCreative Selfに統合得点なし。
 - **Analysis hypothesis not settled**: Creative Self関連の主結果は課題特異的CSEと自己表現/貢献経験のどちらを選ぶか未決。H1-H5単方向仮説も未決。
 - **Paper draft**: v004にv003本文を無変更で継承。新しい議論文書は独立フォルダに保持。
+
+
+## 2026-11-25 — v007 決定
+- D011：第2章を2.1 Research Background／2.2 Research Gap／2.3 Research Question and Contributionとし、具体的課題設計は第4章に移す。
+- D012：第3章を3.1 Creativity and Creative Agency／3.2 Creative Self／3.3 Anticipated Evaluation and AI Assessmentとする。
+- D013：Karwowskiはcreative self-beliefsとE-CBAA、Jussupowはcreative agency・創作物による自己呈示・承認の理論。統合測定モデルは作らない。
+- D014：旧H1–H5と2×2を採用済みの研究計画として扱わない。歴史的な記録は削除しない。
+- D015：累積議論に新しい議論を毎回追記して更新版MDを出力。新しい研究草稿とAIによる提出禁止の区別を保持。

@@ -1,3 +1,21 @@
+# 最新引継ぎ — v007（2026-11-25）
+
+**現在の最新版**：`01_paper/versions/v007_20261125/{ja,de}/{02_Introduction,03_Theoretical_Background}.md`。第2・3章は日独で全文改訂。`01_paper/latest/`にも直リンク用のコピーがある。
+
+**直近の議論**：`09_revision_v007/Theme4_Creative_Self_Cumulative_Discussion_v009_20261125_JA.md`。v001–v008全ての内容を保持し、今回のシステム統合を追記。
+
+**理論章構成**：3.1 Creativity and Creative Agency／3.2 Creative Self／3.3 Anticipated Evaluation and AI Assessment。Jussupowの社会的自己呈示とagency、Karwowskiの自己信念・E-CBAAを区別し、尺度には踏み込まない。GoergenのAI評価予期研究を主要根拠として扱う。
+
+**研究質問は暫定**：「AIによる評価の予期が人間評価の予期と比較して、創造的自己呈示にどう影響するか」。志望動機文という具体的な課題条件は第4章。
+
+**重要な未決**：測定対象、正式なRQ、主要アウトカム、処置、評価・分析・倫理、APA7、版面。旧グループ案H1–H5・旧2×2を基礎にしない。第1章と第4–7章は旧草稿からの継承で整合未検証。
+
+**必要書類**：`09_revision_v007/THEORETICAL_LINEAGE_AND_SOURCE_SCOPE_JA.md`、`CHAPTER_4_TRANSFER_AND_PENDING.md`、`Theme4_AI_Academic_Writing_Problems_v001_20261125_JA.md`。文献正式ID、原著ファイルの命名、原文台帳は維持。
+
+**提出制限**：AI生成の文章を提出原稿に直接組み込まない。大学上限は序論4頁・理論章3頁。現Markdownではページ数判定していない。
+
+---
+
 # 最新引継ぎ — v006（2026-11-25）
 
 - **最新版**：`01_paper/versions/v006_20261125/{ja,de}/{02_Introduction,03_Theoretical_Background}.md`。章2・3を学術論文として再構成した全文草稿。
