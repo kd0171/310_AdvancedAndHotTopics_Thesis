@@ -1,3 +1,19 @@
+# 最新引継ぎ — システムv008（2026-11-25）
+
+**最新版**：第2・3章は `01_paper/versions/v008_20261125/{ja,de}/` または `01_paper/latest/{ja,de}/`。章末の引用文献一覧も更新済。
+
+**最新版の累積議論**：`10_revision_v008/Theme4_Creative_Self_Cumulative_Discussion_v012_20261125_JA.md`。過去v001〜v011を本文内に保持。
+
+**第4章設計メモ**：`10_revision_v008/04_Methodology_Planning_JA.md`。4.1〜4.5の構成と未決事項・執筆可能性を独立保存。第4章の歴史的な草稿は変更していない。
+
+**論証の方針**：第2章を4節で拡充。第3章は3節、3.2をKarwowski→Jussupowの順に整理。GoergenのAI評価予期、JussupowのGenAI使用開示予期を区別。旧グループ案H1–H5を自動採用しない。
+
+**次の決定**：Creative Self・創造的自己呈示の主要な観測対象、処置、尺度、作品評価、倫理、必要標本数。第2章4頁／第3章3頁の実レイアウトは未検証。
+
+**大学規則**：AI生成文章の提出原稿への直接転記は不可。本人による独立執筆が必要。
+
+---
+
 # 最新引継ぎ — v007（2026-11-25）
 
 **現在の最新版**：`01_paper/versions/v007_20261125/{ja,de}/{02_Introduction,03_Theoretical_Background}.md`。第2・3章は日独で全文改訂。`01_paper/latest/`にも直リンク用のコピーがある。
